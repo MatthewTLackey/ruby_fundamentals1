@@ -1,0 +1,14 @@
+number = 0
+until number == 100 do
+	number += 1
+	if number % 3 == 0 && number % 5 == 0
+		puts "BitMaker"
+	elsif number % 3 == 0
+		puts "Bit"
+	elsif number % 5 == 0
+		puts "Maker"
+	else
+		puts number
+	end
+
+end
